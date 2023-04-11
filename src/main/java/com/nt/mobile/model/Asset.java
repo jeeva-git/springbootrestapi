@@ -26,7 +26,8 @@ public class Asset {
                   String expiryDate,
                   String owner,
                   boolean isClientOwned,
-                  String allocatedTo) {
+                  String allocatedTo
+                 ) {
         this.assetId = assetId;
         this.serialNumber = serialNumber;
         this.type = type;
